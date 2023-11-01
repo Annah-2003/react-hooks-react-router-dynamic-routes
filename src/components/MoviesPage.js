@@ -2,6 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import MoviesList from "./MoviesList";
 
+
 function MoviesPage({ movies }) {
   return (
     <div>
@@ -9,4 +10,5 @@ function MoviesPage({ movies }) {
     </div>
   );
 }
+
 export default MoviesPage;
